@@ -5,8 +5,8 @@ const waterWalls = function(array) {
 }
 
 Strategy -
-  Take all the runs in the array where each value is less than the start and end of the run.
-  Calculate the volume of water based on the differences in each run to find the largest by volume
+  Check each wall against left and right for smallest height difference, store difference
+  Use height differences to find holes, check for valleys
 
 
 Big O 
@@ -15,9 +15,7 @@ Big O
 
 const waterWalls = function(array) {
   runs arr = []
-  volumes = {runsarr[i]: volume}
-  iterate through given array and store runs in runs arr
-  calculate the volume of water in each run, put in volumes obj
-  compare the volumes
+  check left and right, store difference in runs
+  use runs and array to find valleys
   return [start, end, volume]
 }
