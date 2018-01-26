@@ -4,7 +4,7 @@ const waterWalls = function(array) {
 
 }
 
-Strategy
+Strategy -
   Take all the runs in the array where each value is less than the start and end of the run.
   Calculate the volume of water based on the differences in each run to find the largest by volume
 
