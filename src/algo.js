@@ -26,4 +26,7 @@ let waterWalls = (array) => {
   return findGreatestRun(waterDepths)
 }
 
-console.log(waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2]))
+
+module.exports = 'algorithim';
+// console.log(waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2]))
+
