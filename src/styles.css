@@ -7,3 +7,17 @@
 body {
   background-color: #fffff0
 }
+
+#Board {
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+}
+
+#piece {
+  display: flex;
+  background-color: red;
+  border-style: solid;
+  max-height: 25px;
+  max-width: 25px;
+}

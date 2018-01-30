@@ -27,6 +27,6 @@ let waterWalls = (array) => {
 }
 
 
-module.exports = 'algorithim';
+module.exports = waterWalls;
 // console.log(waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2]))
 
